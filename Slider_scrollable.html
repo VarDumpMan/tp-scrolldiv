@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carousel scrollable </title>
+    <script src="slider2.js" defer></script>
+    <style>
+        .container {
+            background-color: white;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: 5px;
+            overflow-x: auto;
+            display: flex;
+            scrollbar-width: none;
+}
+        .container::-webkit-scrollbar {
+            display: none;
+        }
+        .items {
+            background-color: #dededf;
+            min-width: 428px;
+            height: 400px;
+            line-height: 400px;
+            text-align: center;
+            margin: 8px;
+            border-radius: 5px;
+            font-size: xx-large;
+        }
+        .lorem {
+            text-align: justify;
+            padding: 20px 25px;
+        }
+        .direction {
+            display: flex;
+            justify-content: space-around;
+            font-size: xx-large;
+            font-style: oblique;
+            margin-top: 15px;
+        }
+        .left2, .right2 {
+            background-color: whitesmoke;
+            padding: 5px 18px;
+            cursor: pointer;
+            transition: background-color 2s;
+        }
+        .left2 {
+            border-radius: 5px 0 0 5px;
+        }
+        .right2 {
+            border-radius: 0 5px 5px 0;
+        }
+        .left2:hover, .right2:hover {
+            background-color: rgba(0,0,0,.9);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">Slider 1</div>
+        <div class="items">Slider 2</div>
+        <div class="items">Slider 3</div>
+        <div class="items">Slider 4</div>
+        <div class="items">Slider 5</div>
+        <div class="items">Slider 6</div>
+    </div>
+    <div class="direction">
+        <div class="left2">&#139</div>
+        <div class="right2">&#155</div>
+    </div>
+    <div class="lorem">
+        <h1>JE SUIS A L'OEUVRE </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eius culpa quod sit id exercitationem earum consectetur molestias distinctio odio, deleniti, quaerat vitae voluptatibus at voluptatum porro minus commodi! Explicabo.
+            Quos odio, harum laborum sequi repellendus nisi? Ullam eius corrupti itaque doloremque sequi placeat aliquam cum soluta illum fugiat distinctio aut laudantium saepe neque dicta, ipsam magnam consectetur praesentium autem?
+            Incidunt delectus obcaecati repellat facilis id atque inventore sed iste aperiam, optio odio quia asperiores ipsam perspiciatis suscipit itaque nihil quos! Numquam, obcaecati? Officia accusamus voluptates nobis quaerat? Eum, rem.
+            Sit quisquam fugit odit, laudantium corrupti animi dolores cumque cum id autem maxime tempore accusantium labore eos aperiam, adipisci illum laborum repellendus nulla quasi, quis doloremque quia. Iure, inventore recusandae.
+            Doloremque praesentium deserunt dolorum necessitatibus, nisi quibusdam aspernatur, soluta officia harum molestiae exercitationem aliquam, deleniti enim? Eos aliquid corporis aperiam, mollitia quod ut esse eveniet animi deserunt! Maxime, reiciendis nobis!
+            Voluptatem facilis ratione, magni aut explicabo ducimus expedita necessitatibus consectetur! Omnis rem non culpa laborum, nesciunt consectetur eius tempore animi quaerat soluta laudantium nemo temporibus laboriosam iste. Et, distinctio enim!
+            Voluptatum illum minus ipsum excepturi molestias hic qui ea nulla quidem illo tempore dolorem rem ipsam animi aperiam quas sint officia accusantium maiores iure, est veritatis corporis nobis reprehenderit. Ipsa.
+            Quas perferendis facilis pariatur dignissimos asperiores? Accusamus ducimus aliquid harum aliquam fugiat, nam laboriosam! Quos, modi placeat! Aut eveniet hic optio? Voluptatem numquam voluptates doloremque placeat recusandae dolorem tempora dolor!
+            Possimus beatae iure quidem distinctio vel, nulla perferendis culpa voluptatibus. Vitae dolor dignissimos veniam quod asperiores beatae error nam illo non earum exercitationem, numquam quo illum quaerat maiores tenetur soluta?
+            Quas voluptatem iure maxime rerum expedita eaque sed cum earum alias nesciunt quis natus accusamus hic impedit vel sunt doloremque assumenda ullam reiciendis rem, harum saepe unde quod totam! Nobis!
+        </p>
+    </div>
+</body>
+</html>
